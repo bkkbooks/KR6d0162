@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0162/v1
+canonical_location: https://kanripo.org/bkk/KR6d0162/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十不二門文心解
+  identifiers:
+    alt_id:
+    - X56n0928
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X56/X56n0928.xml
+    old_id: X56n0928
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0162_000.yaml, hash: 'sha256:786fd624c89f57d8cebe189caf7ac0ef26a7725fbbd4af10b6a91570b2040e89'}
+  - {seq: 1, filename: KR6d0162_001.yaml, hash: 'sha256:184e4b10158044b357d654352b392a047ae9c9d45aaf13ebda6d10d2151e1c0f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0162_001.markers.yaml, hash: 'sha256:b3e4beeeaaeef4185a50c7d0f807aa72c61650a20beff22f0267cd002aae5e9c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0162_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 17340
+  label: 十不二門文心解
+  type: juan
+  level: 1
+hash: sha256:e8814a829d64d9d17c6d0794b79b53f11579d2b0ac5f4553d82e67df14c342b4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0162/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十不二門文心解
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X56/X56n0928.xml
+    old_id: X56n0928
+hash: sha256:786fd624c89f57d8cebe189caf7ac0ef26a7725fbbd4af10b6a91570b2040e89
