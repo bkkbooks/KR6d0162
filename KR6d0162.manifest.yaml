@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6d0162/v1
 canonical_location: https://kanripo.org/bkk/KR6d0162/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 十不二門文心解
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0162_000.yaml, hash: 'sha256:786fd624c89f57d8cebe189caf7ac0ef26a7725fbbd4af10b6a91570b2040e89'}
-  - {seq: 1, filename: KR6d0162_001.yaml, hash: 'sha256:ffb5fb3a373ca352c7c9ab8f617d61bbf80af1c14de9ed99749c05dab3adfb18'}
+  - {seq: 1, filename: KR6d0162_001.yaml, hash: 'sha256:c500075eea62f54b26abc50060d79292f86ea343a7c2dae99257b5be20118570'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6d0162_000.markers.yaml, hash: 'sha256:5c52b607985fd501c6e5a6f08ed60b95574c8779c05ff0ee22f6a8b6808a4c84'}
-  - {seq: 1, role: markers, filename: assets/KR6d0162_001.markers.yaml, hash: 'sha256:6d5c04539b943f82c293b87e32adf293c028b501332ee413e47af4023e4f72ae'}
+  - {seq: 1, role: markers, filename: assets/KR6d0162_001.markers.yaml, hash: 'sha256:94b70363eb08f99abbf412fda3acb2373f735f8e2cef4d2dac4a75b3a707ab5d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 十不二門文心解
   type: juan
   level: 1
-hash: sha256:a3da6f97e70d14a1ed99d24a90f5f7413edb614201cb8c9ef381c2e1808b0fba
+hash: sha256:9f2be1adb2acf412c0199b15a11e722edcf4024c013294ae8430d5b79562e60b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
